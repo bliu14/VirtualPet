@@ -1,8 +1,17 @@
-
-void setup(){
-  //some of your code here
+void setup() {
+  size(400, 400);
+  fill(150, 0, 225);
 }
-void draw(){
-  //more of your code here
+void draw() {
+  triangle(200, 100, 350, 100, 300, 200);
+  triangle(200, 100, 50, 100, 100, 200);
+  ellipse(200, 200, 200, 200);
+  triangle(50, 100, 100, 100, 75, 50);
+  triangle(350, 100, 300, 100, 325, 50);
+  strokeWeight(5);
+  line(150, 200, 150, 150);
+  line(250, 200, 250, 150);
+  line(260, 250, 140, 250);
+  triangle(260,250,230,250,245,265);
+  triangle(140,250,170,250,155,265);
 }
-
